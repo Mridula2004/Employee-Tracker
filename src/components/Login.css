@@ -1,0 +1,64 @@
+/* src/components/Login.css */
+
+/* Center the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Style for the login form */
+  .login-form {
+    width: 400px; /* Width of the login form */
+    padding: 30px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 20px; /* Bottom margin between form groups */
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Input styles */
+  input {
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+  }
+  
+  /* Button styles */
+  button.loginscreen {
+    width: 100%; /* Full width button */
+    padding: 15px 30px; /* Padding inside button */
+    background-color: #555; /* Dark grey button background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 20px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for button */
+  button.loginscreen:hover {
+    background-color: #777; /* Darken background on hover */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 16px; /* Font size for error message */
+  }
+  

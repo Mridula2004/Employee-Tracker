@@ -1,0 +1,28 @@
+.assigned-projects-container {
+    padding: 20px;
+  }
+  
+  .assigned-projects-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .assigned-projects-table th,
+  .assigned-projects-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .assigned-projects-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .assigned-projects-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .assigned-projects-table tr:hover {
+    background-color: #ddd;
+  }
+  

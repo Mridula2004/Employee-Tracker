@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+
+/* General styles for the navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 20px 30px; /* Padding around the navigation bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    display: flex;
+    justify-content: space-between; /* Space items evenly across the navbar */
+    align-items: center; /* Center items vertically */
+    font-size: 20px; /* Larger font size for navigation bar */
+  }
+  
+  /* Styles for the unordered list (nav links) */
+  ul.navbar {
+    list-style-type: none; /* Remove list bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  /* Styles for each navigation item (list item) */
+  li {
+    margin-right: 30px; /* Increased spacing between list items */
+  }
+  
+  /* Styles for login/logout buttons */
+  button {
+    color: white; /* Text color */
+    background-color: #555; /* Dark grey background */
+    padding: 15px 30px; /* Larger padding inside the button */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 20px; /* Larger font size for buttons */
+    border-radius: 5px; /* Rounded corners for button */
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #777; /* Darken background on hover */
+  }
+  
+  /* Style for the login button */
+  .login-button {
+    margin-left: 900px; /* Push login button to the right */
+  }
+  
+  /* Style for the logout button */
+  .logout-button {
+    margin-left: 850px; /* Add margin between logout button and other items */
+  }
+  

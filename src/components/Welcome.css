@@ -1,0 +1,7 @@
+.welcome-content {
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure content takes full width */
+    max-width: 600px; /* Limit content width for readability */
+    margin: 0 auto; /* Center content horizontally */
+  }
